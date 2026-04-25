@@ -1,4 +1,8 @@
+import calendar
 
-a = int(input("Enter number: "))
-b = int(input("Enter number: "))
-print("sum:", a+b)
+year = int(input("Enter year: "))
+month = int(input("Enter month: "))
+
+cal = calendar.month(year, month)
+
+print(cal)
